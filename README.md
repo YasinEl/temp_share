@@ -37,3 +37,11 @@ unzip calprotectin_bagel_export.zip
 
 Related: [Scalable_FeatureFinder_Rust PR #87](https://github.com/Wang-Bioinformatics-Lab/Scalable_FeatureFinder_Rust/pull/87)
 (orphan MS2 rescue after gap filling, found during this analysis).
+
+# ReDU metadata table, 2026-10-15 (b)
+
+**Download:** [redu_2026-10-15b/redu_merged_metadata_2026-10-15b.zip](redu_2026-10-15b/redu_merged_metadata_2026-10-15b.zip)
+(21.6 MB; unzips to a 1.39 GB TSV, 1,293,892 rows, one row per USI). Metadata of public MassIVE/GNPS,
+MetaboLights, Metabolomics Workbench and NORMAN datasets, built with the
+[PublicDataset_ReDU_Metadata_Workflow](https://github.com/Wang-Bioinformatics-Lab/PublicDataset_ReDU_Metadata_Workflow)
+at commit `6f46b12` (branch `fix/silent-data-loss`). Details in `redu_2026-10-15b/README.md`.
