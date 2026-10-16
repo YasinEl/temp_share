@@ -38,10 +38,13 @@ unzip calprotectin_bagel_export.zip
 Related: [Scalable_FeatureFinder_Rust PR #87](https://github.com/Wang-Bioinformatics-Lab/Scalable_FeatureFinder_Rust/pull/87)
 (orphan MS2 rescue after gap filling, found during this analysis).
 
-# ReDU metadata table, 2026-10-15 (b)
+# ReDU metadata table, 2026-10-16 (latest)
 
-**Download:** [redu_2026-10-15b/redu_merged_metadata_2026-10-15b.zip](redu_2026-10-15b/redu_merged_metadata_2026-10-15b.zip)
-(21.6 MB; unzips to a 1.39 GB TSV, 1,293,892 rows, one row per USI). Metadata of public MassIVE/GNPS,
-MetaboLights, Metabolomics Workbench and NORMAN datasets, built with the
+**Download:** [redu_2026-10-16/redu_merged_metadata_2026-10-16.zip](redu_2026-10-16/redu_merged_metadata_2026-10-16.zip)
+(21.7 MB; unzips to a 1.39 GB TSV, 1,295,887 rows, one row per USI). Metadata of public MassIVE/GNPS,
+MetaboLights, Metabolomics Workbench and NORMAN datasets, from a complete Nextflow run of the
 [PublicDataset_ReDU_Metadata_Workflow](https://github.com/Wang-Bioinformatics-Lab/PublicDataset_ReDU_Metadata_Workflow)
-at commit `6f46b12` (branch `fix/silent-data-loss`). Details in `redu_2026-10-15b/README.md`.
+at commit `0ecf13a` (branch `fix/silent-data-loss`) from a fresh clone. Changes and known problems are in
+`redu_2026-10-16/README.md`.
+
+Earlier table: [redu_2026-10-15b/](redu_2026-10-15b/) (offline build of commit `6f46b12`).
