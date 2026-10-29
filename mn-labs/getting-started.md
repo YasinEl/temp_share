@@ -6,7 +6,7 @@ You need a Windows PC (x86_64) with **Google Chrome or Microsoft Edge**. Firefox
 
 ## 1. Download and unzip
 
-1. Click [FeatureFinder-local-v365-windows-x86_64-MN-labs.zip](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/FeatureFinder-local-v365-windows-x86_64-MN-labs.zip) (87 MB). It downloads to your *Downloads* folder.
+1. Click [FeatureFinder-local-v365-windows-x86_64-MN-labs.zip](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/FeatureFinder-local-v365-windows-x86_64-MN-labs.zip) (27 MB). It downloads to your *Downloads* folder.
 2. Click [urine_POS.zip](https://github.com/YasinEl/temp_share/releases/download/urine-pos-test-data-2026-10-28/urine_POS.zip) (135 MB). Labs 7 and 8 need other data; their start pages list it.
 3. In File Explorer, right-click each zip → **Extract All…** → **Extract**. Do not run the app from inside the zip.
    - The app folder is `FeatureFinder-local-v365-windows-x86_64`. Its `MN_teaching` folder holds the handouts,
@@ -22,6 +22,12 @@ You need a Windows PC (x86_64) with **Google Chrome or Microsoft Edge**. Firefox
    malware.
 4. A small black window opens. **Leave it open**: closing it stops the app. Your browser opens at
    `http://127.0.0.1:8000`. If it does not, type that address into Chrome or Edge.
+5. You do **not** need to download spectral libraries. The app zip already contains the student library
+   (`MN_student_library.mgf`, the 1,785 GNPS spectra these datasets match). The **Setup** tab lists it under
+   spectral libraries, ticked. Do not press **Download standard libraries**: that fetches 3.5 GB and makes the
+   library search much slower. If the Setup tab says *no libraries installed*, download
+   [MN_student_library.mgf](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/MN_student_library.mgf), click **Open libraries folder**, put the file there and
+   click **Refresh**.
 
 ## 3. Process the files
 
