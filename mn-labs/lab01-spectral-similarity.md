@@ -22,7 +22,7 @@ How does a molecular network decide that two molecules are related? You will see
 
 ## Step by step
 
-**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**, Quantification **Peak area**), then open **MN Lab 1 · Spectral Similarity** from the **All plugins** tab.
+**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**), then open **MN Lab 1 · Spectral Similarity** from the **All plugins** tab.
 
 1. Panel 1 shows two slots, **A** and **B**. Click the guided example **Prodrug → active drug**: A is perindopril, B perindoprilat. Both are pinned to the top of the feature table.
 2. Panel 2 gives the score, the number of matched peaks and the precursor Δ, and says whether the pair passes the edge rule. Read Δ and the matched peaks. → **Worksheet [Q1](#q1)**

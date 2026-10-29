@@ -25,7 +25,7 @@ Many labs save instrument time by recording MS/MS only in a pooled QC and measur
 
 ## Step by step
 
-**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**, Quantification **Peak area**), then open **MN Lab 10 · Pool MS/MS vs every sample** from the **All plugins** tab.
+**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**), then open **MN Lab 10 · Pool MS/MS vs every sample** from the **All plugins** tab.
 
 1. Open MN Lab 10 in the urine_POS run and press **Read the MS/MS scans**. The lab reads the list of MS/MS scans of every raw file. For each feature it checks whether the pool run fragmented it (pool only) or whether any run did (every sample). → **Worksheet [Q1](#q1)**
 2. Left plot: the share of features with MS/MS, by how many patients have the feature. → **[Q2](#q2)**

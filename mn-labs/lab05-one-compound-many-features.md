@@ -22,7 +22,7 @@ One molecule produces several ions: isotopes, adducts, in-source fragments. You 
 
 ## Step by step
 
-**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**, Quantification **Peak area**), then open **MN Lab 5 · One Compound, Many Features** from the **All plugins** tab.
+**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**), then open **MN Lab 5 · One Compound, Many Features** from the **All plugins** tab.
 
 1. Panel 1 counts the features and the compounds after grouping, and which kinds of extra ions were found. → **Worksheet [Q1](#q1)**
 2. Panel 2: pick the **carnitine** example. Panel 3 lists its members with their Δ to the main ion and their type. → **[Q2](#q2)**

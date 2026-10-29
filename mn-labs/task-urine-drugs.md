@@ -33,7 +33,7 @@ demethylated, hydrolysed or glucuronidated forms. In a molecular network, these 
 ## How to do it
 
 1. Double-click **Start Feature Finder - This Computer**. Drag in the 11 mzML files and drop `metadata.tsv` on the
-   **Sample metadata** box of the Data Selection tab. Set **Engine** to **v1 (classic)** and **Quantification** to **Peak area**, and click **Find Features**
+   **Sample metadata** box of the Data Selection tab. Set **Engine** to **v1 (classic)** and click **Find Features**
    (other settings as they are). Wait for library search and molecular networking to finish.
 2. Open any MN Lab under **Plugins → Yours** (or search for *teaching* in the plugin gallery). The labs read the
    metadata from the app; if a lab still shows **⚠ load sample metadata** at the top right, click it and choose

@@ -40,10 +40,8 @@ You are on the **Data Selection** tab.
    which patient, the pool or a blank.
 3. In the **Engine** dropdown next to **Find Features**, choose **v1 (classic)**. The default, v2, finds a different set
    of features, so your numbers would not match the worksheets.
-4. In the **Quantification** dropdown next to it, choose **Peak area**. The default, *Peak height (default)*, fills
-   the feature table with apex heights; the worksheets were made with peak areas. The app remembers both choices.
-5. Leave every other setting as it is and click **Find Features**.
-6. Wait. Feature finding, then library search, then molecular networking run one after the other (a few minutes on a
+4. Leave every other setting as it is and click **Find Features**.
+5. Wait. Feature finding, then library search, then molecular networking run one after the other (a few minutes on a
    laptop). The tabs **Feature view**, **Library search** and **Molecular Networking** become clickable when their step has
    finished; wait until networking is done before you open a lab.
 
@@ -63,5 +61,4 @@ results stay until you process new files.
 
 - **The browser shows nothing / cannot connect:** is the black window still open? Start it again with step 2.
 - **A lab says there is no network:** molecular networking has not finished yet, or Find Features was not run.
-- **Your numbers differ a lot from the worksheet:** check that Engine was **v1 (classic)**, Quantification **Peak area**, and all 11 files were loaded. A lab shows
-  **⚠ this run used Peak height** at the top when Quantification was left at its default: change it and click **Find Features** again.
+- **Your numbers differ a lot from the worksheet:** check that Engine was **v1 (classic)** and all 11 files were loaded.

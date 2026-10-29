@@ -26,7 +26,7 @@ Electrospray can make positive or negative ions. Each polarity sees a different 
 
 Start the app and open the lab as in [Getting started](getting-started.md), but with the files named in step 1 below.
 
-1. Process the 11 files of **urine_NEG** in the app (negative mode) with their **metadata.tsv** **Engine v1 (classic)** and **Quantification: Peak area**, and open MN Lab 8 there.
+1. Process the 11 files of **urine_NEG** in the app (negative mode) with their **metadata.tsv** and **Engine v1 (classic)**, and open MN Lab 8 there.
 2. Panel 1: upload the positive run's **aligned_features.csv** and **library_matches.tsv** (from your own positive run, or from **urine_POS_results.zip**, see Downloads).
 3. Panel 2, **who sees what**: counts, the RT/mass map and the bars per minute (positive only / negative only / both). → **Worksheet [Q1](#q1), [Q2](#q2)**
 4. Panel 3, library matches side by side: choose **named, and the molecule is seen in both polarities** and click a compound. Panel 4 shows its areas in both modes. → **[Q3](#q3)**

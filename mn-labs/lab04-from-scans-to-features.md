@@ -23,7 +23,7 @@ Before there is a network there is a feature table. You will follow one ion from
 
 ## Step by step
 
-**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**, Quantification **Peak area**), then open **MN Lab 4 · From Scans to Features** from the **All plugins** tab.
+**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**), then open **MN Lab 4 · From Scans to Features** from the **All plugins** tab.
 
 1. Panel 1: pick **creatinine** (type 114.066 or use the example button) and choose the file of patient 57.
 2. Panel 2 shows the XIC in that file with the integration window (dashed lines). Change the m/z window to 1 ppm and to 100 ppm, then back to 10. → **Worksheet [Q1](#q1)**
