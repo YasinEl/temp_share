@@ -18,7 +18,7 @@ Electrospray can make positive or negative ions. Each polarity sees a different 
 
 - [FeatureFinder-local-v365-windows-x86_64-MN-labs.zip](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/FeatureFinder-local-v365-windows-x86_64-MN-labs.zip) · Feature Finder v365 with the ten MN Lab dashboards and the spectral library (Windows, 25 MB)
 - [urine_NEG.zip](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/urine_NEG.zip) · urine, negative mode: 11 mzML files + metadata.tsv (138 MB)
-- [urine_POS_results.zip](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/urine_POS_results.zip) · the app's results for urine_POS (aligned_features.csv + library_matches.tsv), to upload in panel 1
+- [urine_POS_results.zip](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/urine_POS_results.zip) · the app's results for urine_POS (aligned_features.csv + library_matches.tsv), + xic_positive.json (its LC peaks), to upload in panel 1
 - Worksheet to write your answers in: [MN_Lab_8_Positive_vs_Negative_questions.docx](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/MN_Lab_8_Positive_vs_Negative_questions.docx)
 - Printable handout (same content as this page): [MN_Lab_8_Positive_vs_Negative_handout.docx](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/MN_Lab_8_Positive_vs_Negative_handout.docx)
 
@@ -27,16 +27,18 @@ Electrospray can make positive or negative ions. Each polarity sees a different 
 Start the app and open the lab as in [Getting started](getting-started.md), but with the files named in step 1 below.
 
 1. Process the 11 files of **urine_NEG** in the app (negative mode) with their **metadata.tsv** and **Engine v1 (classic)**, and open MN Lab 8 there.
-2. Panel 1: upload the positive run's **aligned_features.csv** and **library_matches.tsv** (from your own positive run, or from **urine_POS_results.zip**, see Downloads).
+2. Panel 1: click the file button and select **all three files** of the positive run: **aligned_features.csv**, **library_matches.tsv** and **xic_positive.json** (unzip **urine_POS_results.zip** first, see Downloads). Then click **Compare**. The xic file holds the positive LC peaks: the app can only read the raw files of the run that is open.
 3. Panel 2, **who sees what**: counts, the RT/mass map and the bars per minute (positive only / negative only / both). → **Worksheet [Q1](#q1), [Q2](#q2)**
-4. Panel 3, library matches side by side: choose **named, and the molecule is seen in both polarities** and click a compound. Panel 4 shows its areas in both modes. → **[Q3](#q3)**
-5. Choose **precursor m/z does not fit the library spectrum** and look at “citric acid” and “mannitol”. → **[Q4](#q4)**
-6. Panel 5, the sulfate finder. → **[Q5](#q5)**
+4. Panel 3, library matches side by side: choose **named, and the molecule is seen in both polarities** and click a compound. Section 4 shows its areas in both modes. → **[Q3](#q3)**
+5. Section 4, the **ion table**: every ion the feature finder grouped into this molecule, in each mode, with its adduct ([M+H]⁺, [M+Na]⁺, [M−H]⁻, …), isotope label, m/z and the neutral mass M worked out from the adduct. Below it the **LC peaks** in every sample: positive on the left, negative on the right. Click an ion to see its LC peak. Then pick a compound named **only in positive** (panel 3): the negative plot shows the trace at the m/z its [M−H]⁻ would have. → **[Q6](#q6)**
+6. Choose **precursor m/z does not fit the library spectrum** and look at “citric acid” and “mannitol”. → **[Q4](#q4)**
+7. Panel 5, the sulfate finder. → **[Q5](#q5)**
 
 > **Watch out**
 >
 > - Never compare peak areas between polarities: compare samples within one polarity.
 > - If a drug class is missing in positive mode (e.g. diuretics), look in negative mode.
+> - Same molecule, same neutral mass M: the ions differ by the adduct, not by the molecule. [M+H]⁺ and [M−H]⁻ of one molecule are 2.0146 apart in m/z.
 
 ## Questions
 
@@ -61,6 +63,10 @@ Choose “precursor m/z does not fit the library spectrum”. Look at “citric 
 #### Q5
 
 How many negative-mode spectra show the sulfate fragments (HSO₄⁻ 96.960, SO₃⁻ 79.957)? How many of those molecules were seen at all in positive mode? Which drugs and body-made compounds are excreted as sulfates?
+
+#### Q6
+
+Section 4: pick 4-guanidinobutanoate. Which ions of it does the ion table list in each mode, and do their neutral masses M agree? Compare the LC peaks in both modes: same retention time, same shape? Then pick a compound named only in positive mode: is there anything in the negative trace at its expected [M−H]⁻ m/z? Why would a molecule give a strong [M+H]⁺ but no [M−H]⁻?
 
 ## Background
 
