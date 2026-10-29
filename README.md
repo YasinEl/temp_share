@@ -48,3 +48,7 @@ at commit `0ecf13a` (branch `fix/silent-data-loss`) from a fresh clone. Changes 
 `redu_2026-10-16/README.md`.
 
 Earlier table: [redu_2026-10-15b/](redu_2026-10-15b/) (offline build of commit `6f46b12`).
+
+## MN Labs (molecular networking practical)
+
+Student pages: [mn-labs/README.md](mn-labs/README.md)
