@@ -16,9 +16,10 @@ Many labs save instrument time by recording MS/MS only in a pooled QC and measur
 
 ## Downloads
 
-- [FeatureFinder-local-v365-windows-x86_64-MN-labs.zip](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/FeatureFinder-local-v365-windows-x86_64-MN-labs.zip) · Feature Finder v365 with the ten MN Labs, the GNPS libraries and all handouts (Windows, 27 MB)
+- [FeatureFinder-local-v365-windows-x86_64-MN-labs.zip](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/FeatureFinder-local-v365-windows-x86_64-MN-labs.zip) · Feature Finder v365 with the ten MN Lab dashboards and the spectral library (Windows, 25 MB)
 - [urine_POS.zip](https://github.com/YasinEl/temp_share/releases/download/urine-pos-test-data-2026-10-28/urine_POS.zip) · urine, positive mode: 11 mzML files + metadata.tsv (135 MB)
-- [urine_POS_pool_MSMS.zip](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/urine_POS_pool_MSMS.zip) · optional: the run with MS/MS only from the pool (71 MB); its results are already in the app zip
+- [urine_POS_poolMSMS_results.zip](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/urine_POS_poolMSMS_results.zip) · the app's results for the pool-only design (aligned_features.csv + library_matches.tsv), to load in section 5
+- [urine_POS_pool_MSMS.zip](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/urine_POS_pool_MSMS.zip) · optional: the raw files of the pool-only design (71 MB), only if you want to process it yourself
 - Worksheet to write your answers in: [MN_Lab_10_Pool_MS_MS_vs_every_sample_questions.docx](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/MN_Lab_10_Pool_MS_MS_vs_every_sample_questions.docx)
 - Printable handout (same content as this page): [MN_Lab_10_Pool_MS_MS_vs_every_sample_handout.docx](https://github.com/YasinEl/temp_share/releases/download/mn-teaching-materials-2026-10-29/MN_Lab_10_Pool_MS_MS_vs_every_sample_handout.docx)
 
@@ -31,7 +32,7 @@ Many labs save instrument time by recording MS/MS only in a pooled QC and measur
 3. Right plot: one run against one run. Hover over the bars of a patient. → **[Q3](#q3)**
 4. Section 3, **named compounds that only a patient run fragmented**. Type a name into the filter and click a row. Section 4 shows the LC peak in every sample (pool dashed) and every MS/MS scan taken at that m/z (pool in orange). → **[Q4](#q4)**
 5. Section 3, **features only the pool fragmented** and **features in a patient that no run fragmented**. → **[Q5](#q5)**
-6. Section 5: load **aligned_features.csv** and **library_matches.tsv** from MN_teaching\handout\urine_POS_poolMSMS_results. This is the app's result for the real pool-only design: the 8 *_fullscan* files + the pool + 2 blanks, dataset urine_POS_pool_MSMS. Optional: process that dataset yourself. → **[Q6](#q6)**
+6. Section 5: load **aligned_features.csv** and **library_matches.tsv** from **urine_POS_poolMSMS_results.zip** (see Downloads; unzip it first). This is the app's result for the real pool-only design: the 8 *_fullscan* files + the pool + 2 blanks, dataset urine_POS_pool_MSMS. Optional: process that dataset yourself. → **[Q6](#q6)**
 7. Section 6: press **Explain the misses** for **named compounds the pool missed**. Click amitriptyline and irbesartan in the table. Section 4 then shows the DDA cycles around the ion in the pool (top) and in the patient (bottom). Grey bars are the MS/MS slots used, red when all 10 were used. Black dashes mark the weakest ion picked in that cycle and the purple line the trigger floor. Green stars are MS/MS scans of this ion. → **[Q7](#q7)**
 8. Section 6 again with **features in 1–2 patients the pool missed**; read the scatter (pool vs patient intensity, with the 10× dilution line). → **[Q8](#q8)**
 9. Section 7, top: MS1 scan rate and MS1 points per peak, DDA patient runs against the MS1-only blanks. → **[Q9](#q9)**
@@ -73,7 +74,7 @@ Choose *features only the pool fragmented*, then *features in a patient that no 
 
 #### Q6
 
-Section 5: load the real pool-only run (MN_teaching\handout\urine_POS_poolMSMS_results). How many features have MS/MS in each run, and how many compounds are named? Which names need MS/MS in every sample, and in how many patients are they? And the names found only in the pool-only run?
+Section 5: load the real pool-only run (urine_POS_poolMSMS_results.zip). How many features have MS/MS in each run, and how many compounds are named? Which names need MS/MS in every sample, and in how many patients are they? And the names found only in the pool-only run?
 
 #### Q7
 

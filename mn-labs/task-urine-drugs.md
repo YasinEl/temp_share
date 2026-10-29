@@ -47,7 +47,7 @@ demethylated, hydrolysed or glucuronidated forms. In a molecular network, these 
    | **MN Lab 1 · Spectral Similarity** | Check a drug–analogue pair in the mirror plot, compare their LC peaks in every sample, and see the whole family with its library names. |
    | **MN Lab 5 · One Compound, Many Features** | Make sure an "analogue" is not just an adduct, isotope or in-source fragment of the drug. |
    | **MN Lab 8 · Positive vs Negative** (optional) | Look for acidic drugs (diuretics, aspirin) that only show up in negative mode. |
-   | **MN Lab 10 · Pool MS/MS vs every sample** | Question 4: which drugs only a patient run fragmented (section 3), why the pool missed them (section 6: dilution or crowding), and what DDA costs the MS1 data (section 7, with the pool-only results in `MN_teaching\handout\urine_POS_poolMSMS_results`). |
+   | **MN Lab 10 · Pool MS/MS vs every sample** | Question 4: which drugs only a patient run fragmented (section 3), why the pool missed them (section 6: dilution or crowding), and what DDA costs the MS1 data (section 7, with the pool-only results from `urine_POS_poolMSMS_results.zip`). |
 
 4. Not every drug has a library spectrum. For a suspect, search its [M+H]⁺ m/z in the feature table (5 ppm).
    Then check whether its MS/MS and its neighbours support the identity.
