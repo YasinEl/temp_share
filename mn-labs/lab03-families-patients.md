@@ -21,7 +21,7 @@ What do the molecular families mean? You will put every family next to the patie
 
 ## Step by step
 
-**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**), then open **MN Lab 3 · Families × Patients** from the **All plugins** tab.
+**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**, Quantification **Peak area**), then open **MN Lab 3 · Families × Patients** from the **All plugins** tab.
 
 1. Panel 1 is a heatmap: one row per family, one column per sample. Use the row filter **found in every patient** and look at the largest families and their library names. → **Worksheet [Q1](#q1)**
 2. Switch the filter to **found in only 1–3 patients** and order the columns by **number of blood-pressure drug classes**. → **[Q2](#q2)**

@@ -22,7 +22,7 @@ A molecular network is built from thousands of pairwise similarity scores by a f
 
 ## Step by step
 
-**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**), then open **MN Lab 2 · Network Builder** from the **All plugins** tab.
+**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**, Quantification **Peak area**), then open **MN Lab 2 · Network Builder** from the **All plugins** tab.
 
 1. Panel 1, **the recipe**, counts what is left after each step: MS/MS spectra → pairs → similar enough → after top-K → after the size cap. Read the number of families and singletons for the app defaults. → **Worksheet [Q1](#q1)**
 2. Click **recompute every pair here**: the browser scores all pairs itself (about 15 s). The agreement line tells you how many of the app's edges it reproduces.

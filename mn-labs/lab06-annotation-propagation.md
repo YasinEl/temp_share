@@ -22,7 +22,7 @@ Only a few percent of the spectra match a library. The network can carry these n
 
 ## Step by step
 
-**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**), then open **MN Lab 6 · Annotation Propagation** from the **All plugins** tab.
+**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**, Quantification **Peak area**), then open **MN Lab 6 · Annotation Propagation** from the **All plugins** tab.
 
 1. Panel 1 shows how many features with MS/MS have a library match, and how many sit in a family that has one. → **Worksheet [Q1](#q1)**
 2. Panel 2 lists the candidates: an unknown feature next to a library match, with Δ and the proposed change. Find the ramipril candidates (filter or sort). → **[Q2](#q2)**

@@ -26,7 +26,7 @@ Before you interpret a feature, ask whether it is measured reliably and comes fr
 
 Start the app and open the lab as in [Getting started](getting-started.md), but with the files named in step 1 below.
 
-1. Load the 38 files and drop **metadata_QC_series.tsv** on the **Sample metadata** box. Set **Engine** to **v1 (classic)**, run **Find Features** and open MN Lab 7 (under Plugins → Yours).
+1. Load the 38 files and drop **metadata_QC_series.tsv** on the **Sample metadata** box. Set **Engine** to **v1 (classic)** and **Quantification** to **Peak area**, run **Find Features** and open MN Lab 7 (under Plugins → Yours).
 2. Panel 1 shows the run: the summed signal of every QC injection in injection order. → **Worksheet [Q1](#q1)**
 3. Panel 2: the CV distribution of the QC injections, with sliders for the detection rate and the CV cut-off, and CV against intensity. → **[Q2](#q2)**
 4. Tick **use only detected values** and watch the histogram and the CV plot. → **[Q3](#q3)**

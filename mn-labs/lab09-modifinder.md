@@ -22,7 +22,7 @@ The network tells you that an unknown is a modified version of a known compound,
 
 ## Step by step
 
-**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**), then open **MN Lab 9 · ModiFinder** from the **All plugins** tab.
+**Before you start:** do [Getting started](getting-started.md) with the 11 files of urine_POS (Engine **v1 (classic)**, Quantification **Peak area**), then open **MN Lab 9 · ModiFinder** from the **All plugins** tab.
 
 1. Open MN Lab 9. The **Examples** card lists curated drug → metabolite pairs of this run; below it, every network edge from a library match to a neighbour. Click **Ramipril → Ramiprilat**.
 2. The **Input** card is filled in: the feature (row ID) and SMILES of the known compound, the modified compound's feature and (optionally) its SMILES. Settings: ppm tolerance 40, base peak filter 0.01, adduct [M+H]1+. **update** runs ModiFinder.
