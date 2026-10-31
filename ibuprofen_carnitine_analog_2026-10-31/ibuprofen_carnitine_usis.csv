@@ -1,0 +1,32 @@
+name,query,type,searchtype,source,accession,compound,mz,adduct
+Carnitine_2_Hydroxyibuprofen_Ester__MH__CCMSLIB00018133520,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018133520,usi,usi,this library,CCMSLIB00018133520,Carnitine_2-Hydroxyibuprofen (Ester),366.2272,M+H
+Carnitine_Ibuprofen_Ester__MH__CCMSLIB00018133555,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018133555,usi,usi,this library,CCMSLIB00018133555,Carnitine_Ibuprofen (Ester),350.23203,M+H
+Carnitine_Ibuprofen_Ester__MNa__CCMSLIB00018133556,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018133556,usi,usi,this library,CCMSLIB00018133556,Carnitine_Ibuprofen (Ester),372.21405,M+Na
+carboxyibuprofen_carnitine__MH__CCMSLIB00018133577,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018133577,usi,usi,this library,CCMSLIB00018133577,carboxyibuprofen_carnitine,394.22217,M+H
+carboxyibuprofen_carnitine__MH__CCMSLIB00018133578,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018133578,usi,usi,this library,CCMSLIB00018133578,carboxyibuprofen_carnitine,394.22241,M+H
+carboxyibuprofen_carnitine__MH__CCMSLIB00018133579,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018133579,usi,usi,this library,CCMSLIB00018133579,carboxyibuprofen_carnitine,394.22256,M+H
+carboxyibuprofen_carnitine__MH__CCMSLIB00018133580,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018133580,usi,usi,this library,CCMSLIB00018133580,carboxyibuprofen_carnitine,394.22379,M+H
+carboxyibuprofen_carnitine__MH__CCMSLIB00018133581,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018133581,usi,usi,this library,CCMSLIB00018133581,carboxyibuprofen_carnitine,394.22217,M+H
+carboxyibuprofen_carnitine__MH__CCMSLIB00018133582,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018133582,usi,usi,this library,CCMSLIB00018133582,carboxyibuprofen_carnitine,394.22241,M+H
+carboxyibuprofen_carnitine__MH__CCMSLIB00018133583,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018133583,usi,usi,this library,CCMSLIB00018133583,carboxyibuprofen_carnitine,394.22256,M+H
+carboxyibuprofen_carnitine__MH__CCMSLIB00018133584,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018133584,usi,usi,this library,CCMSLIB00018133584,carboxyibuprofen_carnitine,394.22379,M+H
+Ibuprofen_carnitine__MH__CCMSLIB00018136663,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018136663,usi,usi,this library,CCMSLIB00018136663,Ibuprofen_carnitine,350.2319,M+H
+Ibuprofen_carnitine__MH__CCMSLIB00018136664,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018136664,usi,usi,this library,CCMSLIB00018136664,Ibuprofen_carnitine,350.23193,M+H
+Ibuprofen_carnitine__MNa__CCMSLIB00018136665,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018136665,usi,usi,this library,CCMSLIB00018136665,Ibuprofen_carnitine,372.21393,M+Na
+1_hydroxyIbuprofen_Carnitine__MH__CCMSLIB00018154485,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018154485,usi,usi,this library,CCMSLIB00018154485,1-hydroxyIbuprofen_Carnitine,366.22766,M+H
+1_HydroxyIbuprfen_carnitine__MH__CCMSLIB00018155593,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018155593,usi,usi,this library,CCMSLIB00018155593,1-HydroxyIbuprfen_carnitine,366.22818,M+H
+1_HydroxyIbuprfen_carnitine__MH__CCMSLIB00018155594,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018155594,usi,usi,this library,CCMSLIB00018155594,1-HydroxyIbuprfen_carnitine,366.22763,M+H
+1_HydroxyIbuprfen_carnitine__MNa__CCMSLIB00018155595,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018155595,usi,usi,this library,CCMSLIB00018155595,1-HydroxyIbuprfen_carnitine,388.21039,M+Na
+Carnitine_2_Hydroxyibuprofen_Ester__MH__CCMSLIB00018160391,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018160391,usi,usi,this library,CCMSLIB00018160391,Carnitine_2-Hydroxyibuprofen (Ester),366.22705,M+H
+Carnitine_1_Hydroxyibuprofen_Ester__MH__CCMSLIB00018163200,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018163200,usi,usi,this library,CCMSLIB00018163200,Carnitine_1-Hydroxyibuprofen (Ester),366.22711,M+H
+Carnitine_Ibuprofen_Carboxylic_Acid_Ester__MH__CCMSLIB00018166134,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018166134,usi,usi,this library,CCMSLIB00018166134,Carnitine_Ibuprofen Carboxylic Acid (Ester),380.20618,M+H
+Ibuprofen_carnitine__MH__CCMSLIB00018168513,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00018168513,usi,usi,this library,CCMSLIB00018168513,Ibuprofen_carnitine,350.23196,M+H
+Ibuprofen_carnitine__MH__CCMSLIB00016288905,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00016288905,usi,usi,GNPS2 library other batches,CCMSLIB00016288905,Ibuprofen_carnitine,350.232,M+H
+S_2_4_Isobutylphenyl_propionic_acid_Carnitine__MH__CCMSLIB00017390871,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00017390871,usi,usi,GNPS2 library other batches,CCMSLIB00017390871,S-2-(4-Isobutylphenyl) propionic acid_Carnitine,350.232,M+H
+S_2_4_Isobutylphenyl_propionic_acid_Carnitine__MH__CCMSLIB00015258101,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00015258101,usi,usi,GNPS2 library other batches,CCMSLIB00015258101,S-2-(4-Isobutylphenyl) propionic acid_Carnitine,350.232,M+H
+S_2_4_Isobutylphenyl_propionic_acid_Carnitine__MH__CCMSLIB00015437818,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00015437818,usi,usi,GNPS2 library other batches,CCMSLIB00015437818,S-2-(4-Isobutylphenyl) propionic acid_Carnitine,350.232,M+H
+Carnitine_2_4_isobutylphenyl_propionic_acid__MH__CCMSLIB00017390928,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00017390928,usi,usi,GNPS2 library other batches,CCMSLIB00017390928,Carnitine_2-(4-isobutylphenyl)propionic-acid,350.232,M+H
+Carnitine_2_4_isobutylphenyl_propionic_acid__MH__CCMSLIB00015455880,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00015455880,usi,usi,GNPS2 library other batches,CCMSLIB00015455880,Carnitine_2-(4-isobutylphenyl)propionic-acid,350.232,M+H
+Carnitine_2_4_isobutylphenyl_propionic_acid__MH__CCMSLIB00015287263,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00015287263,usi,usi,GNPS2 library other batches,CCMSLIB00015287263,Carnitine_2-(4-isobutylphenyl)propionic-acid,350.232,M+H
+carnitine_2_4_isobutylphenyl_propionic_acid__MH__CCMSLIB00017391285,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00017391285,usi,usi,GNPS2 library other batches,CCMSLIB00017391285,carnitine_2-(4-isobutylphenyl)propionic-acid,350.232,M+H
+carnitine_2_4_isobutylphenyl_propionic_acid__MH__CCMSLIB00016281016,mzspec:GNPS:GNPS-LIBRARY:accession:CCMSLIB00016281016,usi,usi,GNPS2 library other batches,CCMSLIB00016281016,carnitine_2-(4-isobutylphenyl)propionic-acid,350.232,M+H
