@@ -1,70 +1,129 @@
 unit_delta_mass	n_matches	n_files	n_query_spectra	example_files
--14	2943	479	15	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH016_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH020_JJK_Ur.mzML
--48	2693	495	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D014_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_OT1D005_JJK_Ur.mzXML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0368.mzML
--12	2388	388	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH020_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D016_JJK_Ur.mzML
--38	2346	363	16	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH016_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH020_JJK_Ur.mzML
--50	2033	330	13	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH020_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D014_JJK_Ur.mzML
--60	1857	272	12	mzspec:MSV000088255:ccms_peak/Urine_NGS013_FragPos.mzML; mzspec:MSV000088255:ccms_peak/Urine_NGS016_FragPos.mzML; mzspec:MSV000088255:ccms_peak/Urine_NGS050_FragPos.mzML
--40	1462	215	16	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0368.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/301.mzML
--64	1359	206	15	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_OT1D005_JJK_Ur.mzXML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0368.mzML
--10	962	171	16	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH026_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0608.mzML
-36	798	118	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D014_JJK_Ur.mzML
--36	740	122	15	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_NT1D006_JJK_Ur.mzXML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_OT1D010_JJK_Ur.mzXML
--90	522	92	15	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH026_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/797.mzML
--2	504	68	9	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_D2_UMB37000.mzML; mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_D5_UMB64454.mzML; mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_E2_UMB73533.mzML
--24	420	73	15	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D019_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_NT1D006_JJK_Ur.mzXML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_OT1D005_JJK_Ur.mzXML
--62	381	64	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH016_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH020_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D014_JJK_Ur.mzML
--52	316	53	13	mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/301.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/701.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/733.mzML
-18	234	41	6	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH016_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH020_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D016_JJK_Ur.mzML
-50	209	119	13	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH026_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_OT1D005_JJK_Ur.mzXML
-8	206	32	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0368.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/557.mzML
--34	187	38	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH016_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH020_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_OT1D010_JJK_Ur.mzXML
-32	147	34	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH016_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH026_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML
--28	126	20	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D002_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_NT1D006_JJK_Ur.mzXML
--22	81	23	10	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH016_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH026_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0640.mzML
--18	68	22	4	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/797.mzML
--46	51	11	7	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_C2_UMB95256.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P4_F4_364302543.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P5_B10_364172478.mzML
-14	45	14	7	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D014_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_OT1D005_JJK_Ur.mzXML
-15	42	10	9	mzspec:MSV000094395:peak/20240323_ADRC_serum_mzML/7513687210.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P3_G4_364172692.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P4_C5_364302556.mzML
-42	36	6	6	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P3_A9_UMB14281.mzML; mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P3_D11_UMB69783.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P6_C5_364302452.mzML
--70	34	14	4	mzspec:MSV000094395:peak/20240323_ADRC_serum_mzML/7513680315.mzML; mzspec:MSV000094395:peak/20240323_ADRC_serum_mzML/7513681506.mzML; mzspec:MSV000094395:peak/20240323_ADRC_serum_mzML/7513681763.mzML
--78	30	30	2	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_C2_UMB95256.mzML; mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_C5_UMB25825.mzML; mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_C7_UMB95150.mzML
--76	29	14	7	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P3_H6_364172716.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P4_B8_364302588.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/RISEPLUS_QC_POOL_8.mzML
-1	24	6	10	mzspec:MSV000084908:ccms_peak/Serum_mzXML/Serum_116A_GA6_01_50392.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P7_C7_364422807.mzML; mzspec:MSV000096359:ccms_peak/RAW/8_9/P9_B7_364302378.mzML
-163	24	3	12	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P2_D8_364172749.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P2_D8_364172749.mzML; mzspec:MSV000097935:ccms_peak/mzML/Plate4/P4_B1_01LJ02349_V5.mzML
--6	23	9	3	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH026_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/797.mzML
--104	20	8	6	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH026_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML
--26	18	6	3	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_F9_UMB11679.mzML; mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P3_D2_UMB89772.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P4_C1_364302514.mzML
-43	18	2	9	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P2_D3_364172974.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P2_D3_364172974.mzML
--3	16	10	4	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/509.mzML
--92	15	5	3	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_F9_UMB11679.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P5_E1_364173063.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P7_A6_364433148.mzML
--20	13	3	7	mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/605.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/701.mzML; mzspec:MSV000097935:ccms_peak/mzML/Plate5/P5_G10_01LJ04186_V5.mzML
-153	12	2	6	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NT1D003_JJK_Ur.mzML
--108	12	4	3	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P2_C10_364172754.mzML; mzspec:MSV000096359:ccms_peak/RAW/8_9/P9_D4_364302360.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P2_C10_364172754.mzML
-164	12	2	6	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NT1D003_JJK_Ur.mzML
-6	12	2	6	mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P5_B7_364173110.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P5_B7_364173110.mzML
-4	12	2	6	mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/301.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/557.mzML
+-14	7073	646	15	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_1/39023.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38966.mzXML
+-64	6642	691	15	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38966.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_3/38813.mzXML
+-48	6375	686	12	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38966.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/39106.mzXML
+-12	6362	633	12	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_1/39023.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38966.mzXML
+-40	6276	660	17	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38966.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_3/38839.mzXML
+-50	6135	615	13	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_1/38745.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38966.mzXML
+-60	5703	588	15	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH005_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH010_JJK_Ur.mzML
+-38	5394	527	16	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_1/38745.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_1/39023.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML
+-90	5073	500	16	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML
+-74	4513	530	10	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH005_JJK_Ur.mzML
+-62	4293	490	13	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_1/38745.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_3/38813.mzXML
+-54	4107	470	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH010_JJK_Ur.mzML
+50	3783	472	17	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH016_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH021_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH026_JJK_Ur.mzML
+-36	3638	492	17	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH005_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH010_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH015_JJK_Ur.mzML
+-10	3618	470	16	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38966.mzXML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML
+-52	3289	367	17	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH005_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH015_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML
+36	2553	279	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH005_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH011_JJK_Ur.mzML
+8	2361	281	15	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH005_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH010_JJK_Ur.mzML
+-104	2229	297	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH010_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH016_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH021_JJK_Ur.mzML
+-24	1744	219	16	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH010_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH011_JJK_Ur.mzML
+-34	1651	241	15	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML
+15	1573	224	15	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH016_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH026_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML
+-22	1312	250	16	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_1/38745.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML; mzspec:MSV000081492:ccms_peak/Raw_Files/Samples_Sham/72846.mzML
+-2	1236	116	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH023_JJK_Ur.mzML
+-76	1122	141	13	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH005_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH011_JJK_Ur.mzML
+-28	1013	114	15	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH010_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH011_JJK_Ur.mzML
+-20	903	127	13	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH005_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH010_JJK_Ur.mzML
+-66	762	93	13	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH015_JJK_Ur.mzML
+-46	700	119	13	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH011_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_OT1D005_JJK_Ur.mzXML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_OT1D010_JJK_Ur.mzXML
+32	615	88	16	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH005_JJK_Ur.mzML
+18	599	94	12	mzspec:MSV000081492:ccms_peak/Raw_Files/Samples_Sham/72846.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH010_JJK_Ur.mzML
+-78	441	78	13	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D028_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_OH015_JJK_Ur.mzXML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0944.mzML
+-70	405	48	13	mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0368.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0640.mzML; mzspec:MSV000092757:peak/05092023-pos-pc18-peaklist/pos_inf_non_7906_male_75_192_B_D8.mzXML
+-26	362	59	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH015_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH021_JJK_Ur.mzML
+14	322	39	17	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH005_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH015_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML
+-8	280	56	10	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/39106.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_3/38839.mzXML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML
+-7	267	65	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_OH015_JJK_Ur.mzXML
+-106	262	39	15	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/797.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NT1D003_JJK_Ur.mzML
+-6	193	44	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH005_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH010_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH011_JJK_Ur.mzML
+42	183	25	12	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_1/38745.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38966.mzXML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0416.mzML
+-56	174	22	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH004_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH005_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH021_JJK_Ur.mzML
+-88	126	30	9	mzspec:MSV000088255:ccms_peak/Urine_NGS013_FragPos.mzML; mzspec:MSV000088255:ccms_peak/Urine_NGS067_FragPos.mzML; mzspec:MSV000088255:ccms_peak/Urine_NGS093_FragPos.mzML
+30	96	16	9	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_3/38746_170617131026.mzXML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH026_JJK_Ur.mzML
+-18	90	23	8	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/509.mzML
+2	85	14	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D014_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_OT1D005_JJK_Ur.mzXML
+16	84	16	9	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38857.mzXML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML
+1	84	11	13	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH023_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_OH023_JJK_Ur.mzML; mzspec:MSV000084908:ccms_peak/Serum_mzXML/Serum_116A_GA6_01_50392.mzML
+6	84	10	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH010_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH008_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NH010_JJK_Ur.mzML
+-92	78	14	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:peak/mzxml_files/samples/11129_NT1D030_JJK_Ur.mzXML
+20	75	9	9	mzspec:MSV000095143:peak/Samples/Plate2/Plate_2_H7_Sample_102077726.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P5_B7_364173110.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P6_F1_364302420.mzML
+33	68	10	10	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P2_D8_364172749.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P4_G10_364302400.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P7_A6_364433148.mzML
+-25	66	11	6	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P3_D12_UMB10868.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P2_A2_364172964.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P2_D9_364172752.mzML
+40	63	8	9	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38966.mzXML; mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_3/38813.mzXML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH011_JJK_Ur.mzML
+-108	63	19	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH026_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NH002_JJK_Ur.mzML
+-118	63	21	3	mzspec:MSV000094395:peak/20240323_ADRC_serum_mzML/7513665270.mzML; mzspec:MSV000094395:peak/20240323_ADRC_serum_mzML/7513670146.mzML; mzspec:MSV000094395:peak/20240323_ADRC_serum_mzML/7513676083.mzML
+-102	61	10	9	mzspec:MSV000088255:ccms_peak/Urine_NGS013_FragPos.mzML; mzspec:MSV000088255:ccms_peak/Urine_NGS016_FragPos.mzML; mzspec:MSV000088255:ccms_peak/Urine_NGS050_FragPos.mzML
+153	60	7	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH007_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH016_JJK_Ur.mzML
+-3	57	13	14	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/509.mzML
+4	56	11	15	mzspec:MSV000082261:peak/mzxml_files/samples/11129_OT1D005_JJK_Ur.mzXML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/301.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/557.mzML
+46	53	8	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH015_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0608.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/653.mzML
+64	48	7	9	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_D9_UMB66667.mzML; mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P3_B2_UMB37511.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P3_F6_364172708.mzML
+-1	47	7	13	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OT1D021_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_OT1D021_JJK_Ur.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P3_H9_364172747.mzML
+-42	45	8	12	mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/653.mzML; mzspec:MSV000090579:peak/mzML/QC-1.mzML; mzspec:MSV000090579:peak/mzML/QC-3.mzML
+10	38	6	10	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NH022_JJK_Ur.mzML
+-17	36	4	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH016_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NH002_JJK_Ur.mzML
+163	36	3	12	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P2_D8_364172749.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P2_D8_364172749.mzML; mzspec:MSV000097935:ccms_peak/mzML/Plate4/P4_B1_01LJ02349_V5.mzML
+-44	36	4	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH011_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NH011_JJK_Ur.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P6_D3_364302444.mzML
+22	33	7	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000094515:peak/mzML/42448394.mzML
+68	33	5	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH015_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH016_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NH015_JJK_Ur.mzML
+-23	33	24	6	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_C1_UMB74906.mzML; mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_C2_UMB95256.mzML; mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_G1_UMB97405.mzML
+-33	31	4	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH016_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0368.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/493.mzML
+164	24	2	12	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NT1D003_JJK_Ur.mzML
+43	24	3	9	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P2_D3_364172974.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P2_D3_364172974.mzML; mzspec:ST003500:balbo006_mckeo093_19145_20230510_S102.mzML
+-19	24	4	6	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P3_B2_UMB37511.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P5_A3_364173071.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P5_A3_364173071.mzML
+-89	24	4	9	mzspec:MSV000082261:peak/mzxml_files/samples/11129_OT1D010_JJK_Ur.mzXML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/637.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/877.mzML
+60	23	5	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH020_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0608.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_OH020_JJK_Ur.mzML
+-49	22	3	9	mzspec:ST003500:balbo006_mckeo093_19145_20230510_N149.mzML; mzspec:ST003500:balbo006_mckeo093_19145_20230510_S102.mzML; mzspec:ST003500:balbo006_mckeo093_19145_20230510_S152.mzML
+-9	21	3	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH002_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0912.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NH002_JJK_Ur.mzML
+66	21	4	9	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_3/38813.mzXML; mzspec:MSV000081492:ccms_peak/Raw_Files/Samples_Sham/72846.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML
+-11	18	2	12	mzspec:MSV000097935:ccms_peak/mzML/Plate3/P3_D4_01LJ01601_V5.mzML; mzspec:ST003500:balbo006_mckeo093_19145_20230510_S190.mzML
+48	18	2	9	mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0560.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate5/M-0608.mzML
+-132	18	6	3	mzspec:MSV000095143:peak/Samples/Plate12/Plate_12_G7_Sample_402013326.mzML; mzspec:MSV000095143:peak/Samples/Plate2/Plate_2_A4_Sample_102034526.mzML; mzspec:MSV000095143:peak/Samples/Plate8/Plate_8_C5_Sample_502073926.mzML
+-37	18	3	6	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P3_D12_UMB10868.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P5_B7_364173110.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P5_B7_364173110.mzML
+17	18	2	9	mzspec:MSV000096359:ccms_peak/RAW/8_9/P9_B7_364302378.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P9_B7_364302378.mzML
+9	17	5	4	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH011_JJK_Ur.mzML; mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D028_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/909.mzML
+-110	15	5	3	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P3_D2_UMB89772.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P7_G8_364433190.mzML; mzspec:MSV000096359:ccms_peak/RAW/8_9/P9_D4_364302360.mzML
+-4	15	4	6	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH020_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/701.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_OH020_JJK_Ur.mzML
+-146	15	4	4	mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/973.mzML; mzspec:MSV000095143:peak/Samples/Plate13/Plate_13_B3_Sample_400059831.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P6_C5_364302452.mzML
+34	15	3	9	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000097935:ccms_peak/mzML/Plate2/P2_D10_01LJ00544_V5.mzML
+-16	15	3	9	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_C2_UMB95256.mzML; mzspec:MSV000096359:ccms_peak/RAW/8_9/P9_H1_364302325.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P9_H1_364302325.mzML
+-15	15	2	9	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P2_C11_UMB55186.mzML; mzspec:MSV000097935:ccms_peak/mzML/Plate5/P5_B1_01LJ03512_V5.mzML
+-68	14	6	4	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P2_D3_364172974.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P4_C5_364302556.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P7_A6_364433148.mzML
+-63	13	2	9	mzspec:MSV000097935:ccms_peak/mzML/Plate5/P5_H10_01LJ04255_V5.mzML; mzspec:ST001357:mzML_files/mtab_alm_UW_072718_05.mzML
 56	12	2	6	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NT1D003_JJK_Ur.mzML
+52	12	1	12	mzspec:MTBLS1465:FILES/urine_RP_aqueous_positive/QC7_MSMS_300_600.mzML
+19	12	2	6	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH005_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_OH005_JJK_Ur.mzML
+124	10	5	2	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P4_B8_364302588.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P6_B1_364302418.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P4_B8_364302588.mzML
+-148	9	9	1	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_F9_UMB11679.mzML; mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P3_D2_UMB89772.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P2_D3_364172974.mzML
+44	9	1	9	mzspec:MSV000097935:ccms_peak/mzML/Plate4/P4_A8_01LJ02337_V8.mzML
+47	9	1	9	mzspec:ST002044:RP/ESIPOS/D_128.mzML
+35	9	1	9	mzspec:ST003500:balbo006_mckeo093_19145_20230510_S102.mzML
+92	9	1	9	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38966.mzXML
+74	9	1	9	mzspec:MTBLS11656:FILES/DERIVED_FILES/pos/B-111.mzXML
 -27	8	8	1	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P2_D3_364172974.mzML; mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P4_B8_364302588.mzML; mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P7_A6_364433148.mzML
-16	6	2	3	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NT1D003_JJK_Ur.mzML
+-80	7	3	3	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000082433:ccms_peak/raw/20161103_Amerindian_Plate6/797.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NH022_JJK_Ur.mzML
+-134	6	2	3	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P2_C10_364172754.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P2_C10_364172754.mzML
+-30	6	2	3	mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P7_G8_364433190.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P7_G8_364433190.mzML
 -58	6	2	3	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH026_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NH026_JJK_Ur.mzML
--80	6	2	3	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NH022_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NH022_JJK_Ur.mzML
-22	6	2	3	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NT1D003_JJK_Ur.mzML
--15	6	1	6	mzspec:MSV000097935:ccms_peak/mzML/Plate5/P5_B1_01LJ03512_V5.mzML
-52	6	1	6	mzspec:MTBLS1465:FILES/urine_RP_aqueous_positive/QC7_MSMS_300_600.mzML
-2	6	1	6	mzspec:ST002798:RPLCpos_ms2/DDA/20220406_URINE_NonTargetDDMS2_SCAN04_POSITIVE_RPLC.mzML
+139	6	2	3	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_NT1D003_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_NT1D003_JJK_Ur.mzML
+-77	6	1	6	mzspec:MSV000088255:ccms_peak/Urine_NGS093_FragPos.mzML
 12	6	1	6	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P1_G3_UMB45023.mzML
--11	6	1	6	mzspec:MSV000097935:ccms_peak/mzML/Plate3/P3_D4_01LJ01601_V5.mzML
--66	6	2	3	mzspec:MSV000094395:peak/20240323_ADRC_serum_mzML/7513670146.mzML; mzspec:MSV000096884:ccms_peak/20240323_ADRC_serum_mzML_NA_rm/7513670146.mzML
--74	4	4	1	mzspec:ST003500:balbo006_mckeo093_19145_20230510_N207.mzML; mzspec:ST003500:balbo006_mckeo093_19145_20230510_S102.mzML; mzspec:ST003500:balbo006_mckeo093_19145_20230510_S144.mzML
--8	3	3	1	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P3_C3_364172688.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P3_C3_364172688.mzML; mzspec:MSV000097935:ccms_peak/mzML/Plate2/P2_D10_01LJ00544_V5.mzML
+-55	6	1	6	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P3_A10_UMB59532.mzML
+-84	6	2	6	mzspec:MSV000088255:ccms_peak/Urine_NGS050_FragPos.mzML; mzspec:ST003500:balbo006_mckeo093_19145_20230510_S144.mzML
+-43	6	2	3	mzspec:MSV000082261:ccms_peak/raw_files/samples/11129_OH008_JJK_Ur.mzML; mzspec:MSV000084112:ccms_peak/Urine_Data/11129_OH008_JJK_Ur.mzML
+-71	4	1	4	mzspec:ST003500:balbo006_mckeo093_19145_20230510_S102.mzML
+111	4	1	4	mzspec:MSV000081351:ccms_peak/mzXML_Files/Rhee_2/38966.mzXML
+26	3	1	3	mzspec:ST002798:RPLCpos_ms2/DDA/20220406_URINE_NonTargetDDMS2_SCAN04_POSITIVE_RPLC.mzML
+-75	3	1	3	mzspec:MSV000097935:ccms_peak/mzML/Plate5/Plate5_poolQC_5.mzML
+76	3	1	3	mzspec:MSV000094515:peak/mzML/42519719.mzML
+70	3	1	3	mzspec:MSV000083664:ccms_peak/mzxml/Non_Buffered/Non_Buffer_Samples/S16_BB6_01_42051.mzML
+-47	3	1	3	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P3_C11_UMB21511.mzML
+-39	2	2	1	mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P6_B6_364302470.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P6_B6_364302470.mzML
+29	2	1	2	mzspec:ST003500:balbo006_mckeo093_19145_20230510_S102.mzML
 -69	2	2	1	mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P5_B8_364173117.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P5_B8_364173117.mzML
-10	2	2	1	mzspec:MSV000094515:peak/mzML/42958530.mzML; mzspec:ST003500:balbo006_mckeo093_19145_20230510_N079.mzML
-33	2	2	1	mzspec:MSV000096359:ccms_peak/RAW/5_6_7/P7_A6_364433148.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P7_A6_364433148.mzML
--1	2	2	1	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P3_H9_364172747.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P3_H9_364172747.mzML
--68	2	2	1	mzspec:MSV000096359:ccms_peak/RAW/2_3_4/P4_C5_364302556.mzML; mzspec:MSV000096359:peak/Burnett_RisePlus_Allmzml/P4_C5_364302556.mzML
--126	1	1	1	mzspec:MSV000097935:ccms_peak/mzML/Plate4/P4_B1_01LJ02349_V5.mzML
--86	1	1	1	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P2_E11_UMB47864.mzML
--84	1	1	1	mzspec:MSV000088255:ccms_peak/Urine_NGS050_FragPos.mzML
--21	1	1	1	mzspec:ST003500:balbo006_mckeo093_19145_20230510_S102.mzML
 -32	1	1	1	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P3_D11_UMB69783.mzML
+-21	1	1	1	mzspec:ST003500:balbo006_mckeo093_19145_20230510_S102.mzML
+-86	1	1	1	mzspec:MSV000095726:peak/UMB_220_Duke_MZML/P2_E11_UMB47864.mzML
+-126	1	1	1	mzspec:MSV000097935:ccms_peak/mzML/Plate4/P4_B1_01LJ02349_V5.mzML
